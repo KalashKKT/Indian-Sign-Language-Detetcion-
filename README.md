@@ -117,7 +117,7 @@ ISL Sign Class Prediction
 Dataset organization:
 
 ```text
-isl(diksha)/
+isl/
 │
 ├── dataset.csv
 │
@@ -171,7 +171,7 @@ Excludes:
 Clone repository:
 
 ```bash
-git clone https://github.com/yourusername/ISL_Recognition.git
+git clone https://github.com/KalashKKT/ISL_Recognition.git
 
 cd ISL_Recognition
 ```
