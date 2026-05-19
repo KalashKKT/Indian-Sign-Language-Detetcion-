@@ -25,7 +25,7 @@ Video Input → VideoMAEv2-Huge (Feature Extraction) → LSTM (Sequence Analysis
 
 The system uses the following dataset structure (BASIC WORDS ONLY):
 ```
-isl(diksha)/
+isl/
 ├── dataset.csv                    # Video paths and labels
 └── isl sign/
     └── basic_words/              # Common ISL words (USED FOR TRAINING)
