@@ -1,4 +1,4 @@
-# 🤟 ISL Recognition using Video Vision Transformers + LSTM
+#  ISL Recognition using Video Vision Transformers + LSTM
 
 A comprehensive deep learning system for **Indian Sign Language (ISL) recognition** using **Video Vision Transformers (VideoMAEv2-Huge)** and **Bidirectional LSTM networks**.
 
@@ -15,7 +15,7 @@ Supports:
 
 ---
 
-## 📌 System Overview
+##  System Overview
 
 Architecture:
 
@@ -38,20 +38,20 @@ Predicted ISL Sign
 
 ---
 
-# ✨ Features
+#  Features
 
-### 🎥 Video Vision Transformer
+###  Video Vision Transformer
 
 - Uses **VideoMAEv2-Huge**
 - Robust extraction of spatial and temporal representations
 - Pretrained on large-scale video datasets
 
-### 🧠 LSTM Sequence Modeling
+###  LSTM Sequence Modeling
 
 - Bidirectional LSTM captures temporal dependencies
 - Learns sign motion progression effectively
 
-### 📊 Feature Visualization
+###  Feature Visualization
 
 Includes:
 
@@ -60,21 +60,21 @@ Includes:
 - Feature magnitude analysis
 - Threshold-based feature inspection
 
-### ⚡ Real-time Detection
+###  Real-time Detection
 
 - Webcam-based live inference
 - Temporal prediction smoothing
 - Confidence filtering
 - FPS monitoring
 
-### 📁 Batch Processing
+###  Batch Processing
 
 - Efficient loading and training on large datasets
 - GPU accelerated pipeline
 
 ---
 
-# 🏗️ Model Architecture
+#  Model Architecture
 
 ### Video Preprocessing
 
@@ -112,7 +112,7 @@ ISL Sign Class Prediction
 
 ---
 
-# 📂 Dataset Structure
+#  Dataset Structure
 
 Dataset organization:
 
@@ -156,17 +156,17 @@ isl(diksha)/
 
 The system automatically filters and uses:
 
-✅ Basic ISL words
+ Basic ISL words
 
 Excludes:
 
-❌ Alphabet classes (A–Z)
+ Alphabet classes (A–Z)
 
-❌ Other unsupported categories
+ Other unsupported categories
 
 ---
 
-# ⚙️ Installation
+#  Installation
 
 Clone repository:
 
@@ -186,7 +186,7 @@ Ensure dataset follows the required structure.
 
 ---
 
-# 🚀 Usage
+#  Usage
 
 ## 1. Train Model
 
@@ -246,7 +246,7 @@ python realtime_isl_detector.py --video video.mp4 --save
 
 ---
 
-# ⚙️ Configuration
+#  Configuration
 
 Key hyperparameters:
 
@@ -264,7 +264,7 @@ Key hyperparameters:
 
 ---
 
-# 📈 Feature Analysis
+#  Feature Analysis
 
 The system generates:
 
@@ -292,7 +292,7 @@ feature_distribution.png
 
 ---
 
-# 📊 Evaluation Metrics
+#  Evaluation Metrics
 
 Training and validation include:
 
@@ -306,7 +306,7 @@ Training and validation include:
 
 ---
 
-# 🎯 Real-Time Enhancements
+#  Real-Time Enhancements
 
 Implemented optimizations:
 
@@ -328,7 +328,7 @@ Monitors inference speed.
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 code/
@@ -356,7 +356,7 @@ Simplified training script
 
 ---
 
-# 📦 Outputs
+#  Outputs
 
 After training:
 
@@ -370,23 +370,23 @@ training_curves.png
 
 ---
 
-# 💡 Performance Tips
+#  Performance Tips
 
-✅ Use GPU for training
+Use GPU for training
 
 ~10× faster than CPU
 
-✅ Enable mixed precision
+Enable mixed precision
 
 Improves memory efficiency
 
-✅ Reduce frame count for real-time speed
+Reduce frame count for real-time speed
 
-✅ Tune batch size based on available VRAM
+Tune batch size based on available VRAM
 
 ---
 
-# 🛠️ Troubleshooting
+#  Troubleshooting
 
 ### CUDA Out of Memory
 
@@ -420,7 +420,7 @@ Reduce:
 
 ---
 
-# 🔮 Future Improvements
+#  Future Improvements
 
 - Expand vocabulary
 - Sentence-level ISL recognition
@@ -431,13 +431,13 @@ Reduce:
 
 ---
 
-# 📜 License
+#  License
 
 This project is released under the MIT License.
 
 ---
 
-# 🙌 Acknowledgements
+#  Acknowledgements
 
 - VideoMAEv2
 - PyTorch
@@ -447,4 +447,4 @@ This project is released under the MIT License.
 
 ---
 
-If you use this work, consider giving the repository a ⭐
+If you use this work, consider giving the repository a STAR
